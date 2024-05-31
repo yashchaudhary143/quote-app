@@ -36,7 +36,7 @@ function DescriptionTable({ tableData, setTableData, formData }) {
   console.log('tableData:', tableData);
 
   try {
-    const response = await fetch('http://localhost:8080/quotes', {
+    const response = await fetch('http://13.127.201.87:8080/quotes', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
